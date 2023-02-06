@@ -4,95 +4,10 @@ Author URL: http://w3layouts.com
 -->
 <!doctype html>
 <html lang="zxx">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords"
-    content="Estates Responsive web template, Bootstrap Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-  <title>Estates Housing Category Bootstrap Responsive Web Template | About :: W3Layouts </title>
-  <link href="//fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap"
-    rel="stylesheet">
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
-</head>
+<?php include('header.php') ?>
 
 <body>
-  <!--header-->
-  <div class="header-w3l">
-    <!-- header -->
-    <header id="site-header" class="fixed-top">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg stroke">
-          <a class="navbar-brand pr-lg-5" href="index.html">
-            <img src="assets/images/logo.png" alt="" class="img-fluid">Estates
-          </a>
-          <!-- if logo is image enable this   
-            <a class="navbar-brand" href="#index.html">
-                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-            </a> -->
-          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-            </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-lg-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-           
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="search-bar ml-lg-4 mt-lg-0 mt-4">
-                <!--/search-right-->
-                <form class="search position-relative">
-                  <input type="search" class="search__input" name="search" placeholder="Search here.."
-                    onload="equalWidth()" required="">
-                  <span class="fa fa-search search__icon"></span>
-                </form>
-
-                <!--//search-right-->
-              </li>
-
-            </ul>
-            <ul class="navbar-nav search-right mt-lg-0 mt-2">
-              <li class="mx-3">
-                <a href="#btn" class="btn btn-style btn-primary">Enquire Here</a>
-              </li>
-
-            </ul>
-          </div>
-          <!-- toggle switch for light and dark theme -->
-          <div class="mobile-position">
-            <nav class="navigation">
-              <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox">
-                  <div class="mode-container">
-                    <i class="gg-sun"></i>
-                    <i class="gg-moon"></i>
-                  </div>
-                </label>
-              </div>
-            </nav>
-          </div>
-          <!-- //toggle switch for light and dark theme -->
-        </nav>
-      </div>
-    </header>
-    <!-- //header -->
+  <?php include('navbar.php') ?>
   </div>
   <!--/w3l-innerblock-->
   <div class="w3l-innerblock">
@@ -141,72 +56,15 @@ Author URL: http://w3layouts.com
           <p class=""> Vestibulum ante ipsum primis in faucibus orci luctus
             turpis sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices
             in.</p>
-          <a href="#" class="btn btn-style btn-primary mt-md-5 mt-4">Read More <span
-              class="fa fa-arrow-right ml-3"></span></a>
+          <a href="#" class="btn btn-style btn-primary mt-md-5 mt-4">Read More <span class="fa fa-arrow-right ml-3"></span></a>
         </div>
       </div>
     </div>
   </div>
   <!--//w3l-agents-block-->
-  <!--/w3l-content-4-->
-  <section class="w3l-content-4 py-5" id="features">
-    <div class="content-4-main py-lg-5 py-md-4">
-      <div class="container">
-        <div class="title-content text-center">
-          <h3 class="title-subhny"> Why choose us</h3>
-          <h3 class="title-w3l">We believe in design as a powerful force for good.</h3>
-        </div>
-        <div class="content-info-in row pt-5">
-          <div class="content-left col-lg-4 mt-lg-0 mt-md-5mt-3">
-            <div class="content-4-main-gd">
-              <div class="row content4-right-grids">
-                <div class="col-sm-3 content4-right-icon">
-                  <div class="content4-icon icon-clr1">
-                    <span class="fa fa-briefcase"></span>
-                  </div>
-                </div>
-                <div class="col-sm-9 content4-right-info pl-4">
-                  <h6><a href="#url">Property Management</a></h6>
-                  <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="content-left col-lg-4 mt-lg-0 mt-md-5mt-3">
-            <div class="content-4-main-gd">
-              <div class="row content4-right-grids">
-                <div class="col-sm-3 content4-right-icon">
-                  <div class="content4-icon icon-clr2">
-                    <span class="fa fa-eye"></span>
-                  </div>
-                </div>
-                <div class="col-sm-9 content4-right-info pl-4">
-                  <h6><a href="#url">Mortgage Service</a></h6>
-                  <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="content-left col-lg-4 mt-lg-0 mt-md-5mt-3">
-            <div class="content-4-main-gd">
-              <div class="row content4-right-grids">
-                <div class="col-sm-3 content4-right-icon">
-                  <div class="content4-icon icon-clr3">
-                    <span class="fa fa-renren"></span>
-                  </div>
-                </div>
-                <div class="col-sm-9 content4-right-info pl-4">
-                  <h6><a href="#url">Consulting Service</a></h6>
-                  <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere .</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--//w3l-content-4-->
+  <!-- why-choose-us-section -->
+  <?php include('choose_us.php') ?>
+  <!-- why-choose-us-section -->
   <!--/team-sec-->
   <section class="w3l-team">
     <div class="team py-5">
@@ -290,7 +148,7 @@ Author URL: http://w3layouts.com
       </div>
   </section>
   <!--//team-sec-->
-  <section class="w3l-project py-5">
+  <!-- <section class="w3l-project py-5">
     <div class="container py-md-5 py-sm-4 py-2">
       <div class="row">
         <div class="col-lg-8">
@@ -308,7 +166,7 @@ Author URL: http://w3layouts.com
       </div>
     </div>
   </section>
-  <!-- footer17 -->
+  footer17
   <section class="footer-17">
     <div class="footer17_sur py-5">
       <div class="container py-lg-5 py-md-4">
@@ -364,33 +222,38 @@ Author URL: http://w3layouts.com
           <p class="copy-footer-29">© 2020 Estates. All rights reserved | Designed by <a href="https://w3layouts.com"
               target="_blank">W3layouts</a></p>
         </div>
-      </div>
-      <!-- move top -->
-      <button onclick="topFunction()" id="movetop" title="Go to top">
-        &#10548;
-      </button>
-      <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-          scrollFunction()
-        };
+      </div> -->
 
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("movetop").style.display = "block";
-          } else {
-            document.getElementById("movetop").style.display = "none";
-          }
-        }
+  <!-- footer -->
+  <?php include('footer.php') ?>
+  <!-- footer -->
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-      </script>
-      <!-- /move top -->
-    </div>
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    &#10548;
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+  </div>
   </section>
   <!-- //footer17 -->
 
@@ -400,8 +263,8 @@ Author URL: http://w3layouts.com
 
   <!-- disable body scroll which navbar is in active -->
   <script>
-    $(function () {
-      $('.navbar-toggler').click(function () {
+    $(function() {
+      $('.navbar-toggler').click(function() {
         $('body').toggleClass('noscroll');
       })
     });
@@ -410,7 +273,7 @@ Author URL: http://w3layouts.com
 
   <!--/MENU-JS-->
   <script>
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
       var scroll = $(window).scrollTop();
 
       if (scroll >= 80) {
@@ -421,14 +284,14 @@ Author URL: http://w3layouts.com
     });
 
     //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
+    $(".navbar-toggler").on("click", function() {
       $("header").toggleClass("active");
     });
-    $(document).on("ready", function () {
+    $(document).on("ready", function() {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
       }
-      $(window).on("resize", function () {
+      $(window).on("resize", function() {
         if ($(window).width() > 991) {
           $("header").removeClass("active");
         }
